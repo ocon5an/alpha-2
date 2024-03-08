@@ -1,0 +1,52 @@
+body{
+    background:#000099 ;
+}
+ 
+#contenedor{
+    position: relative;
+}
+
+#arriba1{
+    position: absolute;
+    top: 120px; left: 25px;
+    border: none;
+    opacity: 0.75;
+}
+
+#arriba2{
+    position: absolute;
+    top: 400px; left: 450px;
+    border: none;
+    opacity: 0.75;
+}
+
+#arriba3{
+    position: absolute;
+    top: 120px; left: 900px;
+    border: none;
+    opacity: 0.75;
+}
+
+
+canvas{
+    margin:0 auto;
+}
+ 
+h3, p{
+    margin: 10px;
+    background: #968261;
+    color: #0e4286;
+    font-family: 'Segoe UI';
+    font-size: 200%;
+    font-weight: bold;
+}
+ 
+p#a0 {color: rgb(4, 16, 255, 0%);}
+ 
+p#a25 {color: rgb(4, 16, 255, 25%);}
+ 
+p#a50 {color: rgb(4, 16, 255, 50%);}
+ 
+p#a75 {color: rgb(4, 16, 255, 75%);}
+ 
+p#a100 {color: rgb(4, 16, 255, 100%);}
